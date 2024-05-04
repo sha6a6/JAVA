@@ -1,0 +1,13 @@
+import java.util.Scanner;
+  class mult{
+  public static void main(String args[]){
+  Scanner hold = new Scanner(System.in);
+  double fnum, snum, ans;
+  System.out.println("Please enter the First number");
+  fnum = hold.nextDouble();
+  System.out.println("Please enter the Second number");
+  snum = hold.nextDouble();
+  ans = fnum * snum;
+  System.out.println(ans);
+  }
+}

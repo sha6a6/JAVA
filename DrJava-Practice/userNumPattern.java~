@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class userNumPattern{
+  public static void main(String args[]){
+    System.out.println("Enter a Number:");
+    Scanner hold = new Scanner(System.in);
+    int stor = hold.nextInt();
+    int i = 0;
+    int j = 0;
+    for (i=1; i <= stor; i++){
+        System.out.print(i * stor);
+      }
+    }
+  }

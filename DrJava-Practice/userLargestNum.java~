@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class userLargestNum{
+  public static void main(String args []){
+    int maxVal = 0;
+    for (i = 1; i < 6; i++){
+      System.out.println("Enter a Number:");
+      Scanner hold = new Scanner(System.in);
+      if (i == 1){
+        maxVal = hold.nextInt();
+      }
+      else{
+        if (maxVal < hold.nextInt()){
+          maxVal = hold.nextInt();
+        }
+      }
+    }
+  }
+}
