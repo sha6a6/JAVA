@@ -1,0 +1,6 @@
+public class codePointAt{
+  public static void main(String args[]){
+    String var = "C";
+    System.out.print(var.codePointAt(0));
+  }
+}

@@ -1,0 +1,8 @@
+public class strREV{
+  public static void main(String args[]){
+    String var = "ACBCDEFGH";
+    for (int i = var.length()-1; i >= 0 ; i--){
+      System.out.print(var.charAt(i));
+    }
+  }
+}
