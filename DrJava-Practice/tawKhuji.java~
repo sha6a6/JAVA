@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class tawKhuji{
+  public static void main(String args[]){
+    Scanner hold = new Scanner(System.in);
+    id = hold.nextInt();
+    for (int i = 1; i < 10; i++){
+      if (i == id){
+        System.out.print(i+" Khuje peyechi");
+        break
+      }
+    }
+  }
+}

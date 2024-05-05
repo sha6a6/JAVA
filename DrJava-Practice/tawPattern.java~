@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class tawPattern {
+    public static void main(String args[]) {
+        Scanner hold = new Scanner(System.in);
+        int num = hold.nextInt();
+        for (int line = 1; line <= num; line++) {
+            for (int col = 1; col <= num; col++) {
+                System.out.print(col);
+            }
+            System.out.println();
+        } 
+    }
+}
