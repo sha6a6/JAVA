@@ -1,0 +1,8 @@
+import java.util.Arrays;
+
+public class arrayLec{
+  public static void main(String args[]){
+    arr1 = {10, 20, 30, 40, 50};
+    System.out.print(Arrays.toString(arr1))
+  }
+}

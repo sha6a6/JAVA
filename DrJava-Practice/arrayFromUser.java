@@ -1,0 +1,17 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class arrayFromUser{
+  public static void main(String args[]){
+    System.out.println("Enter the size of the array:");
+    Scanner hold = new Scanner(System.in);
+    int size = hold.nextInt();
+    int [] arr1 = new int[size];
+    for (int i = 0; i < size; i++){
+      System.out.println("Enter the elements of the array:");
+      int elem = hold.nextInt();
+      arr1[i] = elem;
+    }
+    System.out.println(Arrays.toString(arr1));
+  }
+}
