@@ -1,0 +1,10 @@
+// trying to pass argument in my method
+
+public class passArg{
+  public static void addCost(int item1, int item2){
+    System.out.println("Total "+item1+item2);
+  }
+  public static void main(String args[]){
+    addCost(10,20);
+  }
+}

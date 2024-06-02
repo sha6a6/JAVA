@@ -1,0 +1,10 @@
+public class simpleMyMethod{
+  public static void myMethod(){
+  System.out.print("I have been summoned...")
+  }
+  
+  public static void main(String args[]){
+    myMethod;
+    System.out.ptint("Calling main method.");
+  }
+}
