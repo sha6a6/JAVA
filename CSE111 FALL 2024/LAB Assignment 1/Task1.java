@@ -10,6 +10,7 @@ public class Task1{
     int sum=0;
     int min = 0;
     int max = 0;
+    boolean isOdd = true;
     Scanner hold = new Scanner(System.in);
     while (count < 10){
       count++;
@@ -24,11 +25,19 @@ public class Task1{
           min = user;
         }
       }
+      else {
+        isOdd = false;
+      }
     }
-    double avg = (double)sum/avgCount;
-    System.out.println("Sum: "+ sum);
-    System.out.println("Minimum: " + min);
-    System.out.println("Maximum: " + max);
-    System.out.println("Average: " + avg);
+    if (isOdd != false){
+      double avg = (double)sum/avgCount;
+      System.out.println("Sum: "+ sum);
+      System.out.println("Minimum: " + min);
+      System.out.println("Maximum: " + max);
+      System.out.println("Average: " + avg);
+    }
+    else {
+      System.out.println("No odd positive numbers found");
+    }
   }
 }
